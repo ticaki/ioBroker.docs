@@ -1,11 +1,21 @@
----
-title: установка
-lastChanged: 13.09.2018
-editLink: https://github.com/ioBroker/ioBroker.docs/edit/master/docs/ru/install/docker.md
----
 # Докер контейнер
-?> ***Это подстановочный знак*** . <br><br> Помогите с ioBroker и расширьте эту статью. Пожалуйста, обратите внимание на [Руководство по стилю ioBroker](community/styleguidedoc), чтобы изменения могли быть легко приняты.
+![logo](media/docker.png)
 
-@@@ Статья с форума как база. Кроме того, как получить Docker на NAS или ОС и настроить Docker для ioBroker. @@@
+*Для* 
 
+**cursiv**
+
+***bold cursiv***
+
+## Скачать докер
+[Docker hub](https://hub.docker.com/r/iobroker/iobroker)
+
+### AAA2
+
+| a | b |
+|----------|--------|
+| 1 | 2 |
+
+
+## обновить докер
 
