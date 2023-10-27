@@ -120,6 +120,7 @@ in the [Type-detector repository](https://github.com/ioBroker/ioBroker.type-dete
 * `value.frequency`       - Frequency in Hz, `unit=Hz`
 * `value.fill`            - Fill level, `unit=l,ml,m3,%`
 * `value.blood.sugar`     - Blood sugar value, `unit=mmol,mgdl`
+* `value.color.rgb`       - hex color like `#rrggbb` (`common.type=string`)
 
 ## Indicators (boolean, read-only)
 `common.type=boolean, common.write=false`
@@ -191,6 +192,7 @@ With **levels**, you can control or set some number value.
 * `level.volume.group`   - (`min=0, max=100`) - sound volume, for the group of devices
 * `level.curtain`        - set the curtain position
 * `level.tilt`           - set the tilt position of blinds (max = fully open, min = fully closed)
+* `level.mode`           - generic select (`common.states!=undefined`)
 
 ## Switches (booleans, read-write)
 Switch controls boolean device (`true = ON, false = OFF`)
