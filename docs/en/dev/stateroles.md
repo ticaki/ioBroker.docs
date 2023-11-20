@@ -40,6 +40,7 @@ in the [Type-detector repository](https://github.com/ioBroker/ioBroker.type-dete
 * `sensor.noise`          - noise detected
 
 ## Buttons (booleans, write-only)
+outgoing request for action
 `common.type=boolean, common.write=true, common.read=false`
 
 * `button`
@@ -59,7 +60,15 @@ in the [Type-detector repository](https://github.com/ioBroker/ioBroker.type-dete
 * `button.mode.manual`
 * `button.mode.silent`
 
+## Buttons (booleans, write-only, ack=true)
+internal request for action
+`common.type=boolean, common.write=true, common.read=false`
+confirm with ack=true
+
+* `button` 
+
 ## Buttons as sensor
+incoming request for action
 `common.type=boolean, common.write=false, common.read=true`
 
 * `button`         - the difference, that `common.write=false`. Please avoid this role and use `button.press` or `button.long`.
@@ -191,6 +200,7 @@ With **levels**, you can control or set some number value.
 * `level.volume.group`   - (`min=0, max=100`) - sound volume, for the group of devices
 * `level.curtain`        - set the curtain position
 * `level.tilt`           - set the tilt position of blinds (max = fully open, min = fully closed)
+* level.mode`
 
 ## Switches (booleans, read-write)
 Switch controls boolean device (`true = ON, false = OFF`)
